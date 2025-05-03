@@ -144,7 +144,7 @@
         <div class="container mx-auto px-4">
             <div class="flex justify-between items-center h-16">
                 <!-- Logo Mobile -->
-                <a href="/" class="text-xl font-bold text-gray-800">Syihab Store</a>
+                <a href="/" class="text-xl font-bold text-gray-800">Moora Phone Cell</a>
 
                 <!-- Mobile Icons -->
                 <div class="flex items-center space-x-4">
