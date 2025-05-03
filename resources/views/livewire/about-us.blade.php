@@ -9,7 +9,7 @@
                 VIVO, REALME, XIAOMI, INFINIX, dll.
             </p>
             <p class="text-sm text-gray-600 leading-relaxed">
-                Selain produk smartphone, Syihab juga menyediakan produk-produk lain seperti: Laptop, Tablet,
+                Selain produk smartphone, Moora juga menyediakan produk-produk lain seperti: Laptop, Tablet,
                 Smartwatch,
                 TWS & aksesoris lainnya.
             </p>
@@ -17,7 +17,7 @@
                 Jika Anda butuh bantuan atau memiliki masukan, silahkan hubungi kami.<br>
                 <span class="font-semibold">Jam operasional store:</span><br>
                 09.00 - 22.00 (Senin - Minggu)<br>
-                <span class="font-semibold">WA Callcenter:</span> +62 857-6354-7196
+                <span class="font-semibold">WA Callcenter:</span> +6282325732742
             </p>
         </div>
 
@@ -45,7 +45,7 @@
                 </a>
 
                 <!-- Facebook -->
-                <a href="https://www.facebook.com/people/Syihab-Store-Banjarbaru/100092506301237/" target="_blank"
+                <a href="https://www.facebook.com/dinar.m.faiza" target="_blank"
                     class="p-2 rounded-lg flex items-center border border-gray-300 justify-center transition-all duration-500 hover:border-gray-100 hover:bg-gray-100">
                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 71 72"
                         fill="none">
@@ -56,7 +56,7 @@
                 </a>
 
                 <!-- TikTok -->
-                <a href="https://www.tiktok.com/@syihabstore_" target="_blank"
+                <a href="#" target="_blank"
                     class="p-2 rounded-lg flex items-center border border-gray-300 justify-center transition-all duration-500 hover:border-gray-100 hover:bg-gray-100">
                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 72 72"
                         fill="none">
@@ -75,7 +75,7 @@
                 <div class="flex flex-wrap gap-4 items-center">
                     <!-- Shopee -->
                     <a href="https://shopee.co.id/syihabgroupstore" target="_blank" class="flex items-center">
-                        <img src="{{ asset('svg/shopee.svg') }}" alt="Shopee" class="w-10 h-10">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Shopee_logo.svg/1442px-Shopee_logo.svg.png" alt="Shopee" class="w-10 h-10">
                     </a>
                 </div>
             </div>
@@ -104,7 +104,7 @@
             <div class="p-4">
                 <p class="mb-4 text-gray-600">Pilih akun Instagram yang ingin dikunjungi:</p>
                 <div class="space-y-3">
-                    <a href="https://www.instagram.com/syihab_banjarbaru/" target="_blank"
+                    <a href="https://www.instagram.com/dinarmayla/profilecard/?igsh=MW50Ymx6Z3prdHdibQ==" target="_blank"
                         class="block p-3 bg-gray-50 hover:bg-gray-100 rounded-lg transition duration-200">
                         <div class="flex items-center">
                             <div class="bg-gradient-to-r from-purple-500 to-pink-500 p-2 rounded-full mr-3">
@@ -115,8 +115,8 @@
                                 </svg>
                             </div>
                             <div>
-                                <p class="font-medium">@syihab_banjarbaru</p>
-                                <p class="text-sm text-gray-500">Syihab Banjarbaru</p>
+                                <p class="font-medium">@dinarmayla</p>
+                                <p class="text-sm text-gray-500">Dinarmayla</p>
                             </div>
                         </div>
                     </a>

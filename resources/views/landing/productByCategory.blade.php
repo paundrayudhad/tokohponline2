@@ -93,7 +93,7 @@
 
                     <div class="product-content"></div>
 
-                    <a href="https://wa.me/6285763547196?text={{ urlencode('Halo admin call center Moora Phone Cell, saya tertarik dengan produk ' . $product->name) }}"
+                    <a href="https://wa.me/6282325732742?text={{ urlencode('Halo admin call center Moora Phone Cell, saya tertarik dengan produk ' . $product->name) }}"
                         target="_blank"
                         class="block text-center bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700
                         text-white font-semibold py-3 rounded-lg transition duration-200 shadow-md mt-4">
