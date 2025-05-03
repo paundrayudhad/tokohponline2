@@ -72,7 +72,7 @@
 
     <div class="text-center py-6">
         <h1 class="text-3xl font-bold text-gray-900 mb-2">Semua Brand</h1>
-        <p class="text-gray-600 max-w-2xl mx-auto">Temukan berbagai brand unggulan yang tersedia di Syihab Store
+        <p class="text-gray-600 max-w-2xl mx-auto">Temukan berbagai brand unggulan yang tersedia di Moora Phone Cell
         </p>
     </div>
 

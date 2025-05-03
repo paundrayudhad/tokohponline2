@@ -7,7 +7,7 @@
         <!-- Header -->
         <div class="text-center mb-8">
             <h1 class="text-4xl font-extrabold text-gray-900 mb-6 tracking-tight animate-fade-in-down">
-                DAFTAR HARGA {{ $selectedPricelist->list ?? 'Default List' }} SYIHAB STORE
+                DAFTAR HARGA {{ $selectedPricelist->list ?? 'Default List' }} Moora Phone Cell
             </h1>
         </div>
 
@@ -132,7 +132,7 @@
                     const alamat = this.alamat.value;
 
                     const message =
-                        `Halo admin Syihab Store, saya tertarik dengan ${pricelistName}:\n\n` +
+                        `Halo admin Moora Phone Cell, saya tertarik dengan ${pricelistName}:\n\n` +
                         `Nama: ${nama}\nJenis Kelamin: ${gender}\nUmur: ${umur}\nNo WA: ${nowa}\nAlamat: ${alamat}`;
 
                     const waNumber = "628115546464";

@@ -104,7 +104,7 @@
 
                     <!-- Tombol WhatsApp -->
                     <a id="whatsappButton"
-                        href="https://wa.me/628115546464?text={{ urlencode('Halo admin call center Syihab Store, saya tertarik dengan produk ' . $product->name . (is_array($product->variations) && count($product->variations) ? ' varian ' . $product->variations[array_key_first($product->variations)]['ram'] . ' GB / ' . $product->variations[array_key_first($product->variations)]['storage'] . ' GB' : '')) }}"
+                        href="https://wa.me/628115546464?text={{ urlencode('Halo admin call center Moora Phone Cell, saya tertarik dengan produk ' . $product->name . (is_array($product->variations) && count($product->variations) ? ' varian ' . $product->variations[array_key_first($product->variations)]['ram'] . ' GB / ' . $product->variations[array_key_first($product->variations)]['storage'] . ' GB' : '')) }}"
                         target="_blank" data-product-name="{{ $product->name }}"
                         class="whatsapp-btn block text-center bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold py-3 rounded-lg transition duration-200 shadow-md">
                         🛒 Pesan Sekarang via WhatsApp
@@ -144,7 +144,7 @@
             const productName = "{{ $product->name }}";
             const variantText = `${variant.ram} GB / ${variant.storage} GB`;
             const whatsappMessage =
-                `Halo admin call center Syihab Store, saya tertarik dengan produk ${productName} varian ${variantText}`;
+                `Halo admin call center Moora Phone Cell, saya tertarik dengan produk ${productName} varian ${variantText}`;
             const encodedMessage = encodeURIComponent(whatsappMessage);
 
             document.getElementById('whatsappButton').href = `https://wa.me/628115546464?text=${encodedMessage}`;

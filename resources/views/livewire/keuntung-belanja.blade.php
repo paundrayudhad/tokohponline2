@@ -1,6 +1,6 @@
 <div class="container mx-auto px-3 py-4 max-w-7xl">
     <h1 class="text-2xl sm:text-3xl font-extrabold text-center text-gray-900 mb-6 sm:mb-8 tracking-tight">
-        Keuntungan Belanja di Syihab Store
+        Keuntungan Belanja di Moora Phone Cell
     </h1>
 
     <div class="mt-6 sm:mt-8 bg-white rounded-lg p-4 sm:p-6 shadow-sm">

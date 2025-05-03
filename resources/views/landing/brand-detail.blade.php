@@ -47,7 +47,7 @@
     <!-- Header -->
     <div class="p-6 mb-6 text-center">
         <h1 class="text-2xl font-bold">{{ $brand->name }}</h1>
-        <p class="text-gray-600">Lihat produk-produk dari brand {{ $brand->name }} di Syihab Store</p>
+        <p class="text-gray-600">Lihat produk-produk dari brand {{ $brand->name }} di Moora Phone Cell</p>
     </div>
 
     <!-- Brand Description -->
@@ -86,7 +86,7 @@
                     <div class="product-content"></div>
 
                     {{-- Tombol Order --}}
-                    <a href="https://wa.me/628115546464?text={{ urlencode('Halo admin call center Syihab Store, saya tertarik dengan produk ' . $product->name) }}"
+                    <a href="https://wa.me/628115546464?text={{ urlencode('Halo admin call center Moora Phone Cell, saya tertarik dengan produk ' . $product->name) }}"
                         target="_blank"
                         class="block text-center bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700
                      text-white font-semibold py-3 rounded-lg transition duration-200 shadow-md mt-4">

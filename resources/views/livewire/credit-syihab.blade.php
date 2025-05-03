@@ -3,7 +3,7 @@
         <!-- Header -->
         <div class="text-center mb-8">
             <h1 class="text-4xl font-extrabold text-gray-900 mb-6 tracking-tight animate-fade-in-down">
-                Simulasi Kredit Syihab Store
+                Simulasi Kredit Moora Phone Cell
             </h1>
         </div>
 
@@ -160,7 +160,7 @@
                 const nowa = this.nowa.value;
                 const alamat = this.alamat.value;
 
-                const message = `Halo admin call center Syihab Store, saya ingin mengajukan kredit:\n\n` +
+                const message = `Halo admin call center Moora Phone Cell, saya ingin mengajukan kredit:\n\n` +
                     `Nama: ${nama}\n` +
                     `Jenis Kelamin: ${gender}\n` +
                     `Umur: ${umur} tahun\n` +

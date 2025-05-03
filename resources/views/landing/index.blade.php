@@ -35,9 +35,9 @@
     <livewire:slide-brand />
 
     <!-- Event and Credit -->
-    <livewire:event-and-credit />
+    {{-- <livewire:event-and-credit /> --}}
 
-    <!-- Keuntungan Belanja di Syihab Store -->
+    <!-- Keuntungan Belanja di Moora Phone Cell -->
     <livewire:keuntung-belanja />
 
 

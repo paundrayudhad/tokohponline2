@@ -25,8 +25,8 @@
 
     <!-- Pilih Smartphone -->
     <livewire:pilih-smartphone />
-    
-    <!-- Keuntungan Belanja di Syihab Store -->
+
+    <!-- Keuntungan Belanja di Moora Phone Cell -->
     <livewire:keuntung-belanja />
 
     <!-- Tentang Kami -->

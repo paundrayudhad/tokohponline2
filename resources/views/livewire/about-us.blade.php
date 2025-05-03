@@ -4,7 +4,7 @@
         <div class="space-y-4">
             <h3 class="text-lg font-bold text-gray-800 border-b pb-2">TENTANG KAMI</h3>
             <p class="text-sm text-gray-600 leading-relaxed">
-                Syihab Store adalah Retail Smartphone Terlengkap dan Termurah di Kalimantan sejak 2007. Official Partner
+                Moora Phone Cell adalah Retail Smartphone Terlengkap dan Termurah di Kalimantan sejak 2007. Official Partner
                 dari berbagai produk smartphone dari brand-brand besar seperti Apple Authorised Reseller, Samsung, OPPO,
                 VIVO, REALME, XIAOMI, INFINIX, dll.
             </p>

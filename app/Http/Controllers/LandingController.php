@@ -13,36 +13,36 @@ class LandingController extends Controller
 {
     public function index()
     {
-        SEOTools::setTitle('Syihab Store - Official Store');
+        SEOTools::setTitle('Moora Phone Cell - Official Store');
         SEOTools::setDescription('TERBUKTI TERMURAH & TERLENGKAP');
         SEOTools::opengraph()->setUrl(url('/'));
         SEOTools::setCanonical(url('/'));
         SEOTools::opengraph()->addProperty('type', 'website');
-        SEOMeta::addKeyword(['Syihab Store', 'SyihabStore', 'Syihab', 'Syihab Store Official', 'Syihab Store Official Store']);
+        SEOMeta::addKeyword(['Moora Phone Cell', 'MooraPhone', 'Moora', 'Moora Phone Cell Official', 'Moora Phone Cell Official Store']);
 
         return view('landing.index');
     }
 
     public function events()
     {
-        SEOTools::setTitle('Syihab Store - Events');
-        SEOTools::setDescription('Event Syihab Store');
+        SEOTools::setTitle('Moora Phone Cell - Events');
+        SEOTools::setDescription('Event Moora Phone Cell');
         SEOTools::opengraph()->setUrl(url('/events'));
         SEOTools::setCanonical(url('/events'));
         SEOTools::opengraph()->addProperty('type', 'website');
-        SEOMeta::addKeyword(['Syihab Store', 'SyihabStore', 'Syihab', 'Syihab Store Official', 'Syihab Store Official Store']);
-    
+        SEOMeta::addKeyword(['Moora Phone Cell', 'MooraPhone', 'Moora', 'Moora Phone Cell Official', 'Moora Phone Cell Official Store']);
+
         return view('landing.event');
     }
 
     public function credits()
     {
-        SEOTools::setTitle('Syihab Store - Simulasi Kredit');
-        SEOTools::setDescription('Simulasi Kredit Syihab Store');
+        SEOTools::setTitle('Moora Phone Cell - Simulasi Kredit');
+        SEOTools::setDescription('Simulasi Kredit Moora Phone Cell');
         SEOTools::opengraph()->setUrl(url('/credits'));
         SEOTools::setCanonical(url('/credits'));
         SEOTools::opengraph()->addProperty('type', 'website');
-        SEOMeta::addKeyword(['Syihab Store', 'SyihabStore', 'Syihab', 'Syihab Store Official', 'Syihab Store Official Store']);
+        SEOMeta::addKeyword(['Moora Phone Cell', 'MooraPhone', 'Moora', 'Moora Phone Cell Official', 'Moora Phone Cell Official Store']);
 
         return view('landing.credit');
     }
@@ -60,24 +60,24 @@ class LandingController extends Controller
 
     public function product()
     {
-        SEOTools::setTitle('Syihab Store - Produk');
-        SEOTools::setDescription('Produk Syihab Store');
+        SEOTools::setTitle('Moora Phone Cell - Produk');
+        SEOTools::setDescription('Produk Moora Phone Cell');
         SEOTools::opengraph()->setUrl(url('/product'));
         SEOTools::setCanonical(url('/product'));
         SEOTools::opengraph()->addProperty('type', 'website');
-        SEOMeta::addKeyword(['Syihab Store', 'SyihabStore', 'Syihab', 'Syihab Store Official', 'Syihab Store Official Store']);
-        
+        SEOMeta::addKeyword(['Moora Phone Cell', 'MooraPhone', 'Moora', 'Moora Phone Cell Official', 'Moora Phone Cell Official Store']);
+
         return view('landing.products');
     }
 
     public function products()
     {
-        SEOTools::setTitle('Syihab Store - Semua Produk');
-        SEOTools::setDescription('Semua Produk Syihab Store');
+        SEOTools::setTitle('Moora Phone Cell - Semua Produk');
+        SEOTools::setDescription('Semua Produk Moora Phone Cell');
         SEOTools::opengraph()->setUrl(url('/products'));
         SEOTools::setCanonical(url('/products'));
         SEOTools::opengraph()->addProperty('type', 'website');
-        SEOMeta::addKeyword(['Syihab Store', 'SyihabStore', 'Syihab', 'Syihab Store Official', 'Syihab Store Official Store']);
+        SEOMeta::addKeyword(['Moora Phone Cell', 'MooraPhone', 'Moora', 'Moora Phone Cell Official', 'Moora Phone Cell Official Store']);
 
         $products = Product::where('is_active', true)->latest()->get();
 
@@ -88,12 +88,12 @@ class LandingController extends Controller
     {
         $product = Product::where('slug', $slug)->firstOrFail();
 
-        SEOTools::setTitle('Syihab Store - Produk ' .$product->name);
-        SEOTools::setDescription('Produk Syihab Store');
+        SEOTools::setTitle('Moora Phone Cell - Produk ' .$product->name);
+        SEOTools::setDescription('Produk Moora Phone Cell');
         SEOTools::opengraph()->setUrl(url('/product/' . $product->name));
         SEOTools::setCanonical(url('/product/' . $slug));
         SEOTools::opengraph()->addProperty('type', 'website');
-        SEOMeta::addKeyword(['Syihab Store', 'SyihabStore', 'Syihab', 'Syihab Store Official', 'Syihab Store Official Store']);
+        SEOMeta::addKeyword(['Moora Phone Cell', 'MooraPhone', 'Moora', 'Moora Phone Cell Official', 'Moora Phone Cell Official Store']);
 
 
         return view('landing.product-detail', compact('product'));
@@ -101,12 +101,12 @@ class LandingController extends Controller
 
     public function brands()
     {
-        SEOTools::setTitle('Syihab Store - Semua Brand');
-        SEOTools::setDescription('Semua Brand Syihab Store');
+        SEOTools::setTitle('Moora Phone Cell - Semua Brand');
+        SEOTools::setDescription('Semua Brand Moora Phone Cell');
         SEOTools::opengraph()->setUrl(url('/brands'));
         SEOTools::setCanonical(url('/brands'));
         SEOTools::opengraph()->addProperty('type', 'website');
-        SEOMeta::addKeyword(['Syihab Store', 'SyihabStore', 'Syihab', 'Syihab Store Official', 'Syihab Store Official Store']);
+        SEOMeta::addKeyword(['Moora Phone Cell', 'MooraPhone', 'Moora', 'Moora Phone Cell Official', 'Moora Phone Cell Official Store']);
 
         $brands = Brand::withCount('products')->where('is_active', true)->get();
 
@@ -118,12 +118,12 @@ class LandingController extends Controller
         $brand = Brand::where('slug', $slug)->firstOrFail();
         $products = $brand->products()->where('is_active', true)->latest()->get();
 
-        SEOTools::setTitle('Syihab Store - Brand ' . $brand->name);
-        SEOTools::setDescription('Brand Syihab Store');
+        SEOTools::setTitle('Moora Phone Cell - Brand ' . $brand->name);
+        SEOTools::setDescription('Brand Moora Phone Cell');
         SEOTools::opengraph()->setUrl(url('/brand/product/' . $brand->slug));
         SEOTools::setCanonical(url('/brand/product/' . $slug));
         SEOTools::opengraph()->addProperty('type', 'website');
-        SEOMeta::addKeyword(['Syihab Store', 'SyihabStore', 'Syihab', 'Syihab Store Official', 'Syihab Store Official Store']);
+        SEOMeta::addKeyword(['Moora Phone Cell', 'MooraPhone', 'Moora', 'Moora Phone Cell Official', 'Moora Phone Cell Official Store']);
 
         return view('landing.brand-detail', compact('brand', 'products'));
     }
@@ -150,13 +150,13 @@ class LandingController extends Controller
             };
         });
 
-        SEOTools::setTitle('Syihab Store - Produk ' . $category);
-        SEOTools::setDescription('Produk Syihab Store');
+        SEOTools::setTitle('Moora Phone Cell - Produk ' . $category);
+        SEOTools::setDescription('Produk Moora Phone Cell');
         SEOTools::opengraph()->setUrl(url('/products/category/' . $category));
         SEOTools::setCanonical(url('/products/category/' . $category));
         SEOTools::opengraph()->addProperty('type', 'website');
-        SEOMeta::addKeyword(['Syihab Store', 'SyihabStore', 'Syihab', 'Syihab Store Official', 'Syihab Store Official Store']);
-        
+        SEOMeta::addKeyword(['Moora Phone Cell', 'MooraPhone', 'Moora', 'Moora Phone Cell Official', 'Moora Phone Cell Official Store']);
+
         return view('landing.productByCategory', [
             'category' => $category,
             'products' => $products,

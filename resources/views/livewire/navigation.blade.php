@@ -7,7 +7,7 @@
                 <div class="flex items-center">
                     <a href="/"
                         class="text-2xl font-bold text-gray-800 hover:text-blue-600 transition-colors duration-200">
-                        Syihab Store
+                        Moora Phone Celly
                     </a>
                 </div>
 

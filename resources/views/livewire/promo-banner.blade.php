@@ -11,7 +11,7 @@
             <!-- Konten desktop sama seperti sebelumnya -->
             <div class="bg-blue-600 py-5 px-6 flex flex-col items-center text-center space-y-3">
                 <h2 class="text-xl font-bold text-white group-hover:scale-105 transition">
-                    HP Baru di Syihab Store
+                    HP Baru di Moora Phone Cell
                 </h2>
             </div>
             <div class="p-6">
@@ -67,7 +67,7 @@
     <div class="md:hidden grid grid-cols-2 gap-4">
         <!-- Item 1 -->
         <div class="bg-white rounded-2xl shadow-lg p-4 flex flex-col items-center text-center">
-            <h3 class="text-sm font-semibold text-gray-900">Cari HP Baru di Syihab Store</h3>
+            <h3 class="text-sm font-semibold text-gray-900">Cari HP Baru di Moora Phone Cell</h3>
             <img src="{{ asset('img/Syihab-Silhouette-Web.png') }}" alt="HP Baru" class="w-16 h-8 mb-3">
             <button wire:click="lihatProduk"
                 class="mt-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-full text-xs">

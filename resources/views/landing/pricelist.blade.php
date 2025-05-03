@@ -2,24 +2,24 @@
 <html lang="id">
 
 <head>
-    <title>Syihab Store - Price List {{ $slug }}</title> 
+    <title>Moora Phone Cell - Price List {{ $slug }}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Daftar harga produk dan layanan kami. Dapatkan penawaran terbaik untuk kebutuhan Anda.">
     <meta name="keywords" content="harga, produk, layanan, penawaran, terbaik">
-    <meta property="og:title" content="Syihab Store - Price List {{ $slug }}">
+    <meta property="og:title" content="Moora Phone Cell - Price List {{ $slug }}">
     <meta property="og:description" content="Daftar harga produk dan layanan kami. Dapatkan penawaran terbaik untuk kebutuhan Anda.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
 
-    <meta name="twitter:title" content="Syihab Store - Price List {{ $slug }}">
+    <meta name="twitter:title" content="Moora Phone Cell - Price List {{ $slug }}">
     <meta name="twitter:description" content="Daftar harga produk dan layanan kami. Dapatkan penawaran terbaik untuk kebutuhan Anda.">
 
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Syihab Store - Price List {{ $slug }}",
+            "name": "Moora Phone Cell - Price List {{ $slug }}",
             "description": "Daftar harga produk dan layanan kami. Dapatkan penawaran terbaik untuk kebutuhan Anda.",
             "url": "{{ url()->current() }}"
         }
