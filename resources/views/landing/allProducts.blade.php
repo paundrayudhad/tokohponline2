@@ -115,13 +115,13 @@
                     <div class="product-content"></div>
 
                     @if (!empty($product->variations))
-                        <a href="https://wa.me/628115546464?text={{ urlencode('Halo admin, saya ingin memesan ' . $product->name) }}"
+                        <a href="https://wa.me/6285763547196?text={{ urlencode('Halo admin, saya ingin memesan ' . $product->name) }}"
                             target="_blank" data-product-name="{{ $product->name }}"
                             class="whatsapp-btn block text-center bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-semibold py-3 rounded-lg transition duration-200 shadow-md mt-4">
                             Pesan Sekarang
                         </a>
                     @else
-                        <a href="https://wa.me/628115546464?text={{ urlencode('Halo admin, saya ingin Pre-Order ' . $product->name) }}"
+                        <a href="https://wa.me/6285763547196?text={{ urlencode('Halo admin, saya ingin Pre-Order ' . $product->name) }}"
                             target="_blank" data-product-name="{{ $product->name }}"
                             class="whatsapp-btn block text-center bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-semibold py-3 rounded-lg transition duration-200 shadow-md mt-4">
                             Pre-Order
