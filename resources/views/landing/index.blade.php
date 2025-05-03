@@ -28,8 +28,6 @@
     <livewire:promo-banner />
 
 
-    <!-- Daily Promo -->
-    <livewire:components.daily-promo />
 
     <!-- brand slide -->
     <livewire:slide-brand />

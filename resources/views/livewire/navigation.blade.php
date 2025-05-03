@@ -131,28 +131,6 @@
                         class="text-gray-800 hover:text-blue-600 transition-colors duration-200 font-medium">Produk</a>
                     <a href="#"
                         class="text-gray-800 hover:text-blue-600 transition-colors duration-200 font-medium">Promo</a>
-                    <!-- Price List with dropdown -->
-                    <div class="relative group">
-                        <a href="#"
-                            class="text-gray-800 hover:text-blue-600 transition-colors duration-200 font-medium inline-flex items-center">
-                            Price List
-                            <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M19 9l-7 7-7-7"></path>
-                            </svg>
-                        </a>
-                        <ul class="absolute hidden group-hover:block bg-white shadow-lg mt-2 py-2 rounded-md w-48">
-                            @foreach ($brands as $brand)
-                                <li>
-                                    <a href="{{ route('price-list', $brand->slug) }}"
-                                        class="block px-4 py-2 text-gray-700 hover:bg-gray-100">
-                                        {{ $brand->name }}
-                                    </a>
-                                </li>
-                            @endforeach
-                        </ul>
-                    </div>
                     <a href="#"
                         class="text-gray-800 hover:text-blue-600 transition-colors duration-200 font-medium">Tentang
                         Kami</a>

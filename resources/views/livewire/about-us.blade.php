@@ -4,7 +4,7 @@
         <div class="space-y-4">
             <h3 class="text-lg font-bold text-gray-800 border-b pb-2">TENTANG KAMI</h3>
             <p class="text-sm text-gray-600 leading-relaxed">
-                Moora Phone Cell adalah Retail Smartphone Terlengkap dan Termurah di Kalimantan sejak 2007. Official Partner
+                Moora Phone Cell adalah Retail Smartphone Terlengkap dan Termurah di Indonesia sejak 2007. Official Partner
                 dari berbagai produk smartphone dari brand-brand besar seperti Apple Authorised Reseller, Samsung, OPPO,
                 VIVO, REALME, XIAOMI, INFINIX, dll.
             </p>
@@ -17,7 +17,7 @@
                 Jika Anda butuh bantuan atau memiliki masukan, silahkan hubungi kami.<br>
                 <span class="font-semibold">Jam operasional store:</span><br>
                 09.00 - 22.00 (Senin - Minggu)<br>
-                <span class="font-semibold">WA Callcenter:</span> +62 811-5546-464
+                <span class="font-semibold">WA Callcenter:</span> +62 857-6354-7196
             </p>
         </div>
 

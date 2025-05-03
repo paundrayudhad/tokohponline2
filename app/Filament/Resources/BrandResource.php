@@ -42,7 +42,7 @@ class BrandResource extends Resource
 
                 Forms\Components\Textarea::make('description')
                     ->maxLength(65535),
-                
+
                 Forms\Components\Toggle::make('is_active')
                     ->required()
                     ->default(true),
@@ -56,15 +56,15 @@ class BrandResource extends Resource
                 Tables\Columns\ImageColumn::make('logo')
                     ->width(50)
                     ->height(50),
-                
+
                 Tables\Columns\TextColumn::make('name')
                     ->searchable()
                     ->sortable(),
-                
+
                 Tables\Columns\IconColumn::make('is_active')
                     ->boolean()
                     ->label('Active'),
-                
+
                 Tables\Columns\TextColumn::make('created_at')
                     ->dateTime(),
             ])

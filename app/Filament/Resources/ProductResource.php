@@ -131,21 +131,21 @@ class ProductResource extends Resource
                 ->formatStateUsing(function ($state) {
                     // Handle empty state
                     if (empty($state)) return '-';
-                    
+
                     // Decode JSON string to array
                     $variations = json_decode('['.$state.']', true);
-                    
+
                     // Jika decode gagal
                     if (json_last_error() !== JSON_ERROR_NONE) {
                         return 'Invalid data format';
                     }
-                    
+
                     // Process variations
                     return collect($variations)->map(function ($item) {
                         $ram = $item['ram'] ?? '?';
                         $storage = $item['storage'] ?? '?';
                         $price = isset($item['price']) ? 'Rp '.number_format((int)$item['price'], 0, ',', '.') : '?';
-                        
+
                         return "{$ram}GB/{$storage}GB - {$price}";
                     })->implode('<br>');
                 })

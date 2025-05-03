@@ -5,10 +5,10 @@
     <div id="brandSwiper" class="swiper">
         <div class="swiper-wrapper">
             @foreach ($brands as $brand)
-                <div class="swiper-slide flex justify-center items-center p-4 bg-white rounded-lg shadow">
+                <a href="{{ route('brand-detail', $brand->slug) }}" class="swiper-slide flex justify-center items-center p-4 bg-white rounded-lg shadow">
                     <img src="{{ asset('storage/' . ($brand->logo ?? 'default-logo.png')) }}" alt="{{ $brand->name }}"
                         class="h-16 object-contain" />
-                </div>
+                </a>
             @endforeach
         </div>
     </div>
@@ -38,7 +38,7 @@
                         spaceBetween: 24,
                     },
                     1024: {
-                        slidesPerView: 5,
+                        slidesPerView: 3,
                         spaceBetween: 28,
                     },
                 },
