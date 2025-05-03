@@ -27,8 +27,6 @@
     <!-- Promo Banner -->
     <livewire:promo-banner />
 
-    <!-- Daily Promo Popup -->
-    <livewire:popup-daily-promo />
 
     <!-- Daily Promo -->
     <livewire:components.daily-promo />
@@ -42,14 +40,10 @@
     <!-- Keuntungan Belanja di Syihab Store -->
     <livewire:keuntung-belanja />
 
-    <!-- Maps Slider -->
-    <livewire:maps-slider />
 
     <!-- Tentang Kami -->
     <livewire:about-us />
 
-    <!-- Find Our Store -->
-    <livewire:find-our-store />
 
     <!-- Footer -->
     <livewire:footer />

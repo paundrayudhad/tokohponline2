@@ -15,7 +15,6 @@ class BannerCarousel extends Component
     public function __construct()
     {
         $this->banners = [
-            ['image' => asset('img/banner/banner1.jpg')],
             ['image' => asset('img/banner/banner2.jpg')],
             ['image' => asset('img/banner/banner3.jpg')],
             ['image' => asset('img/banner/banner4.jpg')],

@@ -13,7 +13,7 @@ class PromoBanner extends Component
 
     public function tukarSekarang()
     {
-        return redirect()->away('https://tukartambah.gskstore.id/');
+        return redirect()->away('#');
     }
 
     public function render()
