@@ -56,7 +56,7 @@
                 </a>
 
                 <!-- TikTok -->
-                <a href="#" target="_blank"
+                <a href="#"
                     class="p-2 rounded-lg flex items-center border border-gray-300 justify-center transition-all duration-500 hover:border-gray-100 hover:bg-gray-100">
                     <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 72 72"
                         fill="none">
@@ -74,7 +74,7 @@
                 <h3 class="text-lg font-bold text-gray-800 border-b pb-2">MARKETPLACE KAMI</h3>
                 <div class="flex flex-wrap gap-4 items-center">
                     <!-- Shopee -->
-                    <a href="https://shopee.co.id/syihabgroupstore" target="_blank" class="flex items-center">
+                    <a href="#" class="flex items-center">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Shopee_logo.svg/1442px-Shopee_logo.svg.png" alt="Shopee" class="w-10 h-10">
                     </a>
                 </div>
